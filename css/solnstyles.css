@@ -1,0 +1,89 @@
+*{
+	box-sizing: border-box;
+	padding:5px;
+}
+h1{
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+h2{
+	float: right;
+	margin-top: 0;
+	border: 3px solid black;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+p{
+	clear: both;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 18px;
+}
+#a1{
+	background-color: pink;
+	
+}
+#a2{
+	background-color: red;
+	color: white;
+}
+#a3{
+	background-color: yellow;
+	}
+div{
+	background-color: #D3D3D3;
+	border: 1px solid black;
+	margin-bottom: 20px;
+	
+}
+
+section {
+	margin: auto;
+	
+	padding: 10px;
+}
+
+/*width and pixel margin variation has been done to fit screen size of my laptop*/
+/*Desktop*/
+@media (min-width: 992px){
+	.col-lg-4 {
+		float: left;
+		border: 3px solid black;
+		width: 32%;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+}
+/*Tablets*/
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6 {
+		float: left;
+		border: 3px solid black;
+		width: 47%;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-12{
+		float: left;
+		border: 3px solid black;
+		width: 95%;
+		margin-left: 5px;
+		margin-right: 20px;
+	}
+}
+
+/*Mobiles*/
+@media (max-width: 767px){
+	.col-sm-12 {
+		float: left;
+		border: 1px solid black;
+		width: 90%;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+}
